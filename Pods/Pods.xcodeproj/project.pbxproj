@@ -1,0 +1,718 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		23E22E53F9E1083F75786FB4A105272C /* Pods-TwitterandoTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9D6812D8883746D32DA9F81B733CB476 /* Pods-TwitterandoTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		25228342C8901BFC5E417B67CA3747C6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		32E5881DE2B8B7FF190E2E4C3497007F /* Pods-TwitterandoUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 048878BBBB451CD3D78BA1598AD52C87 /* Pods-TwitterandoUITests-dummy.m */; };
+		3F9290653D21731C2D4272C534B54130 /* Pods-Twitterando-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 243FF4077C01111756F8E1E98E113291 /* Pods-Twitterando-dummy.m */; };
+		646C127FC7B440D6EA857941CC3F3295 /* Pods-Twitterando-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 980FC2061AA6FFAB685FBD2EB32DFA79 /* Pods-Twitterando-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		89344ECF5F11F95F32F3AC2313587D4A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		94008E685930CFA02C5AADDAFB2A2B29 /* Pods-TwitterandoTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BA1EF7DC489F59DCA313D7A53240F94 /* Pods-TwitterandoTests-dummy.m */; };
+		D0EDA32A9A7A865264B5C0D7205C57EA /* Pods-TwitterandoUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 23514D9E4B1C630A817008039DE28EC5 /* Pods-TwitterandoUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E6BB3DAAD8F2D7CAAFE181293CB6145F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		048878BBBB451CD3D78BA1598AD52C87 /* Pods-TwitterandoUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TwitterandoUITests-dummy.m"; sourceTree = "<group>"; };
+		21E3EBAB6D639D19FD2116CBC5A03988 /* Pods-TwitterandoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TwitterandoTests.release.xcconfig"; sourceTree = "<group>"; };
+		23514D9E4B1C630A817008039DE28EC5 /* Pods-TwitterandoUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TwitterandoUITests-umbrella.h"; sourceTree = "<group>"; };
+		23EBB726DE6A58C12119FD4B564D0C4B /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		243FF4077C01111756F8E1E98E113291 /* Pods-Twitterando-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Twitterando-dummy.m"; sourceTree = "<group>"; };
+		2D80B4DD49F5A19A60FC5C3109E859CC /* Pods-TwitterandoTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TwitterandoTests-frameworks.sh"; sourceTree = "<group>"; };
+		342862A9339BEC657F7E8039DF536A71 /* Pods-Twitterando-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Twitterando-resources.sh"; sourceTree = "<group>"; };
+		34C3DECBC500095959D1C09F904BE097 /* Pods-Twitterando.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Twitterando.release.xcconfig"; sourceTree = "<group>"; };
+		48BC09CF9A5732D3A866ADB8E9995953 /* Pods-TwitterandoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TwitterandoTests.debug.xcconfig"; sourceTree = "<group>"; };
+		4CE056C33352ABA16881B960A7D7B427 /* Pods-TwitterandoUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TwitterandoUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		4D31B832586B4618C5ADFA3ACE00D3D3 /* Pods-Twitterando.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-Twitterando.modulemap"; sourceTree = "<group>"; };
+		4EF58FF1E27E28FB2427BA7CBEE52C6A /* Pods-TwitterandoTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TwitterandoTests-resources.sh"; sourceTree = "<group>"; };
+		535F25100D3AC65A5F597686EBF9CE8D /* Pods_Twitterando.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Twitterando.framework; path = "Pods-Twitterando.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5BA1EF7DC489F59DCA313D7A53240F94 /* Pods-TwitterandoTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TwitterandoTests-dummy.m"; sourceTree = "<group>"; };
+		607632321347DD389EE407CB49D30572 /* TwitterKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = TwitterKit.framework; path = iOS/TwitterKit.framework; sourceTree = "<group>"; };
+		66CEF56F19E753FE03BE6AD6CD0F0F70 /* Pods-TwitterandoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TwitterandoUITests.release.xcconfig"; sourceTree = "<group>"; };
+		6A67CDD2D6F86561E6DCA4214AD1B71C /* Pods-Twitterando-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Twitterando-acknowledgements.markdown"; sourceTree = "<group>"; };
+		7C748E173D74DCAFC9756566930F4C47 /* Pods-TwitterandoTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TwitterandoTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		8621F113D343918B10EBA21E07D3BBFD /* TwitterKitResources.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = TwitterKitResources.bundle; path = iOS/TwitterKit.framework/TwitterKitResources.bundle; sourceTree = "<group>"; };
+		87DF93DBA40A555EC74101B4B5912D3B /* Pods-Twitterando.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Twitterando.debug.xcconfig"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		980FC2061AA6FFAB685FBD2EB32DFA79 /* Pods-Twitterando-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Twitterando-umbrella.h"; sourceTree = "<group>"; };
+		994AE5196BA1F02F9D8BC2B8F4807B61 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9BCB2BDED3F57CFB42DC32446567C6EE /* Pods-TwitterandoUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TwitterandoUITests-resources.sh"; sourceTree = "<group>"; };
+		9D6812D8883746D32DA9F81B733CB476 /* Pods-TwitterandoTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TwitterandoTests-umbrella.h"; sourceTree = "<group>"; };
+		A0608D4ED20A655A2F36D2C3075C4220 /* Pods_TwitterandoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_TwitterandoTests.framework; path = "Pods-TwitterandoTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A08245774B64C99EA98BFEC02B1AFD95 /* Pods-TwitterandoUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TwitterandoUITests-frameworks.sh"; sourceTree = "<group>"; };
+		A287FD9CFE205B9FF78DD0A0A6C2CF55 /* Pods-Twitterando-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Twitterando-acknowledgements.plist"; sourceTree = "<group>"; };
+		A7A315864F14A302BF6CD0B45E2C3642 /* TwitterCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = TwitterCore.framework; path = iOS/TwitterCore.framework; sourceTree = "<group>"; };
+		B181EA61638E6DC90516FA88C670FBA1 /* Pods-TwitterandoTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-TwitterandoTests.modulemap"; sourceTree = "<group>"; };
+		C7B0B0E5432C114CC08507A537B776A4 /* Pods-TwitterandoUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-TwitterandoUITests.modulemap"; sourceTree = "<group>"; };
+		CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		D48F333822EF594491BF848647CCBF93 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DA5B8D57FBB5DF4CA6C2824F214EF39A /* TwitterShareExtensionUIResources.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = TwitterShareExtensionUIResources.bundle; path = iOS/TwitterKit.framework/TwitterShareExtensionUIResources.bundle; sourceTree = "<group>"; };
+		ED8F435E06BC29BFC6055ABDAE2B794C /* Pods-TwitterandoUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TwitterandoUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		F194529AE92A3BE1C0F55B6997040749 /* Pods_TwitterandoUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_TwitterandoUITests.framework; path = "Pods-TwitterandoUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F409D077442B7F123F95DC576349BB65 /* Pods-TwitterandoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TwitterandoUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		FC7F3CB41F9E5242EA71113793C4AA6C /* Pods-Twitterando-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Twitterando-frameworks.sh"; sourceTree = "<group>"; };
+		FFADF002CA17D07254411541B170A072 /* Pods-TwitterandoTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TwitterandoTests-acknowledgements.plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		493B22A804C91B1B46DC6C1A6F616817 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				89344ECF5F11F95F32F3AC2313587D4A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		739F1555110038D4A3BE4C522273BF1E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				25228342C8901BFC5E417B67CA3747C6 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB0D3EE1323156D7176D2F78B0E624F8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E6BB3DAAD8F2D7CAAFE181293CB6145F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0BF536F08A25BA83B4D06A7285B6CA6B /* TwitterCore */ = {
+			isa = PBXGroup;
+			children = (
+				411517A95D07289E303AEB5356B6B063 /* Frameworks */,
+			);
+			name = TwitterCore;
+			path = TwitterCore;
+			sourceTree = "<group>";
+		};
+		411517A95D07289E303AEB5356B6B063 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A7A315864F14A302BF6CD0B45E2C3642 /* TwitterCore.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		59F83748FB7A53BEF46129D18B0CF53C /* TwitterKit */ = {
+			isa = PBXGroup;
+			children = (
+				F91DB74D7D17026793F75D04FAF895D0 /* Frameworks */,
+				85E9FF6F5D05D8E98E9B3B73A4087643 /* Resources */,
+			);
+			name = TwitterKit;
+			path = TwitterKit;
+			sourceTree = "<group>";
+		};
+		6AD20DAD5E30DA011D51037C50AF6B9D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0BF536F08A25BA83B4D06A7285B6CA6B /* TwitterCore */,
+				59F83748FB7A53BEF46129D18B0CF53C /* TwitterKit */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				6AD20DAD5E30DA011D51037C50AF6B9D /* Pods */,
+				FEAD5D06CAA217AAD14B96591CB069B6 /* Products */,
+				E71CE25DD0119AD4B95DC08C2B226660 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		85E9FF6F5D05D8E98E9B3B73A4087643 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				8621F113D343918B10EBA21E07D3BBFD /* TwitterKitResources.bundle */,
+				DA5B8D57FBB5DF4CA6C2824F214EF39A /* TwitterShareExtensionUIResources.bundle */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D5D876BF83C34140013B325D70F5D56B /* Pods-TwitterandoTests */ = {
+			isa = PBXGroup;
+			children = (
+				994AE5196BA1F02F9D8BC2B8F4807B61 /* Info.plist */,
+				B181EA61638E6DC90516FA88C670FBA1 /* Pods-TwitterandoTests.modulemap */,
+				7C748E173D74DCAFC9756566930F4C47 /* Pods-TwitterandoTests-acknowledgements.markdown */,
+				FFADF002CA17D07254411541B170A072 /* Pods-TwitterandoTests-acknowledgements.plist */,
+				5BA1EF7DC489F59DCA313D7A53240F94 /* Pods-TwitterandoTests-dummy.m */,
+				2D80B4DD49F5A19A60FC5C3109E859CC /* Pods-TwitterandoTests-frameworks.sh */,
+				4EF58FF1E27E28FB2427BA7CBEE52C6A /* Pods-TwitterandoTests-resources.sh */,
+				9D6812D8883746D32DA9F81B733CB476 /* Pods-TwitterandoTests-umbrella.h */,
+				48BC09CF9A5732D3A866ADB8E9995953 /* Pods-TwitterandoTests.debug.xcconfig */,
+				21E3EBAB6D639D19FD2116CBC5A03988 /* Pods-TwitterandoTests.release.xcconfig */,
+			);
+			name = "Pods-TwitterandoTests";
+			path = "Target Support Files/Pods-TwitterandoTests";
+			sourceTree = "<group>";
+		};
+		E4C179A37ADC2ECF943A1C1158E38620 /* Pods-TwitterandoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D48F333822EF594491BF848647CCBF93 /* Info.plist */,
+				C7B0B0E5432C114CC08507A537B776A4 /* Pods-TwitterandoUITests.modulemap */,
+				4CE056C33352ABA16881B960A7D7B427 /* Pods-TwitterandoUITests-acknowledgements.markdown */,
+				ED8F435E06BC29BFC6055ABDAE2B794C /* Pods-TwitterandoUITests-acknowledgements.plist */,
+				048878BBBB451CD3D78BA1598AD52C87 /* Pods-TwitterandoUITests-dummy.m */,
+				A08245774B64C99EA98BFEC02B1AFD95 /* Pods-TwitterandoUITests-frameworks.sh */,
+				9BCB2BDED3F57CFB42DC32446567C6EE /* Pods-TwitterandoUITests-resources.sh */,
+				23514D9E4B1C630A817008039DE28EC5 /* Pods-TwitterandoUITests-umbrella.h */,
+				F409D077442B7F123F95DC576349BB65 /* Pods-TwitterandoUITests.debug.xcconfig */,
+				66CEF56F19E753FE03BE6AD6CD0F0F70 /* Pods-TwitterandoUITests.release.xcconfig */,
+			);
+			name = "Pods-TwitterandoUITests";
+			path = "Target Support Files/Pods-TwitterandoUITests";
+			sourceTree = "<group>";
+		};
+		E71CE25DD0119AD4B95DC08C2B226660 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				EDEBE65EEF5D20A4CE622728968CDDE9 /* Pods-Twitterando */,
+				D5D876BF83C34140013B325D70F5D56B /* Pods-TwitterandoTests */,
+				E4C179A37ADC2ECF943A1C1158E38620 /* Pods-TwitterandoUITests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		EDEBE65EEF5D20A4CE622728968CDDE9 /* Pods-Twitterando */ = {
+			isa = PBXGroup;
+			children = (
+				23EBB726DE6A58C12119FD4B564D0C4B /* Info.plist */,
+				4D31B832586B4618C5ADFA3ACE00D3D3 /* Pods-Twitterando.modulemap */,
+				6A67CDD2D6F86561E6DCA4214AD1B71C /* Pods-Twitterando-acknowledgements.markdown */,
+				A287FD9CFE205B9FF78DD0A0A6C2CF55 /* Pods-Twitterando-acknowledgements.plist */,
+				243FF4077C01111756F8E1E98E113291 /* Pods-Twitterando-dummy.m */,
+				FC7F3CB41F9E5242EA71113793C4AA6C /* Pods-Twitterando-frameworks.sh */,
+				342862A9339BEC657F7E8039DF536A71 /* Pods-Twitterando-resources.sh */,
+				980FC2061AA6FFAB685FBD2EB32DFA79 /* Pods-Twitterando-umbrella.h */,
+				87DF93DBA40A555EC74101B4B5912D3B /* Pods-Twitterando.debug.xcconfig */,
+				34C3DECBC500095959D1C09F904BE097 /* Pods-Twitterando.release.xcconfig */,
+			);
+			name = "Pods-Twitterando";
+			path = "Target Support Files/Pods-Twitterando";
+			sourceTree = "<group>";
+		};
+		F91DB74D7D17026793F75D04FAF895D0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				607632321347DD389EE407CB49D30572 /* TwitterKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FEAD5D06CAA217AAD14B96591CB069B6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				535F25100D3AC65A5F597686EBF9CE8D /* Pods_Twitterando.framework */,
+				A0608D4ED20A655A2F36D2C3075C4220 /* Pods_TwitterandoTests.framework */,
+				F194529AE92A3BE1C0F55B6997040749 /* Pods_TwitterandoUITests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		36400083633DAC8842250735691DCFF8 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				23E22E53F9E1083F75786FB4A105272C /* Pods-TwitterandoTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		94930BA61E5309D57150CAA3B48E4C53 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				646C127FC7B440D6EA857941CC3F3295 /* Pods-Twitterando-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A771BF11BD380B6C2102792C854E9D91 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0EDA32A9A7A865264B5C0D7205C57EA /* Pods-TwitterandoUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		19D3B51B9EC777AEDD2BCEF93E156C73 /* Pods-TwitterandoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CED12ED506B43ED06E8D86D53A57CA18 /* Build configuration list for PBXNativeTarget "Pods-TwitterandoTests" */;
+			buildPhases = (
+				6392A2E9702C44986B86CF92D2254170 /* Sources */,
+				739F1555110038D4A3BE4C522273BF1E /* Frameworks */,
+				36400083633DAC8842250735691DCFF8 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-TwitterandoTests";
+			productName = "Pods-TwitterandoTests";
+			productReference = A0608D4ED20A655A2F36D2C3075C4220 /* Pods_TwitterandoTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		26020C8A0F4457456AA300AFDA11A373 /* Pods-Twitterando */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1FA17EE2EBC09BCB3137AAAAE5D10F8C /* Build configuration list for PBXNativeTarget "Pods-Twitterando" */;
+			buildPhases = (
+				D2349DA845223CCE834E6BA0086B6E8E /* Sources */,
+				493B22A804C91B1B46DC6C1A6F616817 /* Frameworks */,
+				94930BA61E5309D57150CAA3B48E4C53 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-Twitterando";
+			productName = "Pods-Twitterando";
+			productReference = 535F25100D3AC65A5F597686EBF9CE8D /* Pods_Twitterando.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		96D7158DE2EA05BE5098DFDE9EA7371F /* Pods-TwitterandoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6BE324BF9519A67B6654A074D2FDCAA7 /* Build configuration list for PBXNativeTarget "Pods-TwitterandoUITests" */;
+			buildPhases = (
+				5D798D7EC9D384B34FD761292058670D /* Sources */,
+				EB0D3EE1323156D7176D2F78B0E624F8 /* Frameworks */,
+				A771BF11BD380B6C2102792C854E9D91 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-TwitterandoUITests";
+			productName = "Pods-TwitterandoUITests";
+			productReference = F194529AE92A3BE1C0F55B6997040749 /* Pods_TwitterandoUITests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = FEAD5D06CAA217AAD14B96591CB069B6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				26020C8A0F4457456AA300AFDA11A373 /* Pods-Twitterando */,
+				19D3B51B9EC777AEDD2BCEF93E156C73 /* Pods-TwitterandoTests */,
+				96D7158DE2EA05BE5098DFDE9EA7371F /* Pods-TwitterandoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5D798D7EC9D384B34FD761292058670D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32E5881DE2B8B7FF190E2E4C3497007F /* Pods-TwitterandoUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6392A2E9702C44986B86CF92D2254170 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94008E685930CFA02C5AADDAFB2A2B29 /* Pods-TwitterandoTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D2349DA845223CCE834E6BA0086B6E8E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F9290653D21731C2D4272C534B54130 /* Pods-Twitterando-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		0EDCC363776474F3FE8DD6EFE79FEFF4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 21E3EBAB6D639D19FD2116CBC5A03988 /* Pods-TwitterandoTests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-TwitterandoTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TwitterandoTests/Pods-TwitterandoTests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_TwitterandoTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		12E1A8B026C5564AB0CC961E5B9C359D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		474E2402B9A4613CB757CB2ACA8C1111 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 48BC09CF9A5732D3A866ADB8E9995953 /* Pods-TwitterandoTests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-TwitterandoTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TwitterandoTests/Pods-TwitterandoTests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_TwitterandoTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		569E142332CB3BA0C4D865D00704A9EA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F409D077442B7F123F95DC576349BB65 /* Pods-TwitterandoUITests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-TwitterandoUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TwitterandoUITests/Pods-TwitterandoUITests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_TwitterandoUITests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		605D7F853C0D895CA2B5D1005E08C8E1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 87DF93DBA40A555EC74101B4B5912D3B /* Pods-Twitterando.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Twitterando/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Twitterando/Pods-Twitterando.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Twitterando;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		642582340E3119E8906D449E208D6A52 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 66CEF56F19E753FE03BE6AD6CD0F0F70 /* Pods-TwitterandoUITests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-TwitterandoUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TwitterandoUITests/Pods-TwitterandoUITests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_TwitterandoUITests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		80A3DF25EDB21B2A34554DE5BEB764AC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 34C3DECBC500095959D1C09F904BE097 /* Pods-Twitterando.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Twitterando/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Twitterando/Pods-Twitterando.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Twitterando;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		D3A9D7E6435570048A0980A67D7415ED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1FA17EE2EBC09BCB3137AAAAE5D10F8C /* Build configuration list for PBXNativeTarget "Pods-Twitterando" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				605D7F853C0D895CA2B5D1005E08C8E1 /* Debug */,
+				80A3DF25EDB21B2A34554DE5BEB764AC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				12E1A8B026C5564AB0CC961E5B9C359D /* Debug */,
+				D3A9D7E6435570048A0980A67D7415ED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6BE324BF9519A67B6654A074D2FDCAA7 /* Build configuration list for PBXNativeTarget "Pods-TwitterandoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				569E142332CB3BA0C4D865D00704A9EA /* Debug */,
+				642582340E3119E8906D449E208D6A52 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CED12ED506B43ED06E8D86D53A57CA18 /* Build configuration list for PBXNativeTarget "Pods-TwitterandoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				474E2402B9A4613CB757CB2ACA8C1111 /* Debug */,
+				0EDCC363776474F3FE8DD6EFE79FEFF4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
