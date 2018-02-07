@@ -28,7 +28,7 @@ class ViewController: UIViewController {
             }
             
             else {
-                print("Failed to load Tweet: \(error?.localizedDescription)")
+                print("Failed to load Tweet: \(String(describing: error?.localizedDescription))")
             }
             
         }
