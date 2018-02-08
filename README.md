@@ -93,7 +93,7 @@ CocoaPods is the dependency manager for iOS projects. You can use it to access a
 
    `$ pod install`
 
-9. If you run the [ls](https://www.computerhope.com/unix/uls.htm) command, you'll notice that the `pod install` command will have generated a file named **Twitterando.xcworkspace**. From now on, to work on your project, you **must** use this xcworkspace fill.
+9. If you run the [ls](https://www.computerhope.com/unix/uls.htm) command, you'll notice that the `pod install` command will have generated a file named **Twitterando.xcworkspace**. From now on, to work on your project, you **must** use this xcworkspace file.
 
 10. Return to Xcode and close the Twitterando project.
 
