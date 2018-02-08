@@ -67,13 +67,13 @@ CocoaPods is the dependency manager for iOS projects. You can use it to access a
 
    `$ open -a "Sublime Text" Podfile`
 
-   **emacs**
-
-   `$ emacs Podfile`
-
    **vim**
 
-   `ew who uses vim`
+   `$ vim Podfile`
+
+   **GNU Emacs**
+
+   `ew who uses Emacs`
 
 4. Locate the line "# Pods for Twitterando".
 
