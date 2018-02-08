@@ -182,14 +182,14 @@ Back in Xcode, you should now notice a new object named **Pods** inside the Proj
 
 ---
 
-2. Using the Project Navigator, select the **AppDelegate.swift** file.
+2. Using the Project Navigator, select the **AppDelegate.swift** file. And import TwitterKit in AppDelegate.swift.
 
 3. Change the first function, `application(_:didFinishLaunchingWithOptions:)`, to the following:
 
    ```
    func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
    	// Override point for customization after application launch.
-       Twitter.sharedInstance().start(withConsumerKey: "qsSBF4peypKJlnkEP8fvRvBUr", consumerSecret: "J3uFqQghjrnn406cuVLXpRYkyh1qsNBmBkaL4F5NPbBaFkapBi")
+       TWTRTwitter.sharedInstance().start(withConsumerKey: "qsSBF4peypKJlnkEP8fvRvBUr", consumerSecret: "J3uFqQghjrnn406cuVLXpRYkyh1qsNBmBkaL4F5NPbBaFkapBi")
        return true
    }
    ```
