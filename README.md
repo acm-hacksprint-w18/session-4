@@ -186,13 +186,13 @@ Back in Xcode, you should now notice a new object named **Pods** inside the Proj
 
 3. First, import TwitterKit into the **AppDelegate.swift** by adding the following line to the top of the file:
 
-   ```
+   ``` swift
    import TwitterKit
    ```
 
 4. Next, Change the first function, `application(_:didFinishLaunchingWithOptions:)`, to the following:
 
-   ```
+   ``` swift
    func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
    	// Override point for customization after application launch.
        TWTRTwitter.sharedInstance().start(withConsumerKey: "qsSBF4peypKJlnkEP8fvRvBUr", consumerSecret: "J3uFqQghjrnn406cuVLXpRYkyh1qsNBmBkaL4F5NPbBaFkapBi")
@@ -216,7 +216,7 @@ pls don't use our app secret for malicious intents thx :')
 
 4. Change `viewDidLoad()` to the following:
 
-   ```
+   ``` swift
    override func viewDidLoad() {
    	super.viewDidLoad()
        // Do any additional setup after loading the view, typically from a nib.
@@ -230,7 +230,7 @@ pls don't use our app secret for malicious intents thx :')
 
 5. Change `tappedGenerate(_:)` to the following:
 
-   ```
+   ``` swift
    @IBAction func tappedGenerate(_ sender: UIButton) {
            
        // Generate random number from 0 ... 1b
